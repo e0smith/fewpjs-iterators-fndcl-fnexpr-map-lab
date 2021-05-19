@@ -14,3 +14,10 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+function studentRollCall(student) {
+  return student + " the wizard";
+}
+
+let students = ["harry", "ron", "hermione", "ginevra"];
+let rollCall = students.map(studentRollCall);
